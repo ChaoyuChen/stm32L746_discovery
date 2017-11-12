@@ -72,6 +72,7 @@ extern void _Error_Handler(char *, int);
 void MX_USART2_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+void TRACE(const char *str, ...);
 
 /* USER CODE END Prototypes */
 
