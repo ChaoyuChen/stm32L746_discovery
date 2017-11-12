@@ -1,5 +1,7 @@
-Src/lcd.o: ../Src/lcd.c \
- /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/lcd.h \
+Src/stm32l476g_discovery_glass_lcd.o: \
+ ../Src/stm32l476g_discovery_glass_lcd.c \
+ /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery_glass_lcd.h \
+ /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l4xx_hal_conf.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/main.h \
@@ -30,10 +32,11 @@ Src/lcd.o: ../Src/lcd.c \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
- /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/gpio.h
+ /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h
 
-/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/lcd.h:
+/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery_glass_lcd.h:
+
+/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery.h:
 
 /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:
 
@@ -96,5 +99,3 @@ Src/lcd.o: ../Src/lcd.c \
 /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 
 /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h:
-
-/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/gpio.h:

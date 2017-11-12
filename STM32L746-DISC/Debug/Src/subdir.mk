@@ -6,8 +6,8 @@
 C_SRCS += \
 ../Src/freertos.c \
 ../Src/gpio.c \
-../Src/lcd.c \
 ../Src/main.c \
+../Src/stm32l476g_discovery_glass_lcd.c \
 ../Src/stm32l4xx_hal_msp.c \
 ../Src/stm32l4xx_it.c \
 ../Src/system_stm32l4xx.c \
@@ -16,8 +16,8 @@ C_SRCS += \
 OBJS += \
 ./Src/freertos.o \
 ./Src/gpio.o \
-./Src/lcd.o \
 ./Src/main.o \
+./Src/stm32l476g_discovery_glass_lcd.o \
 ./Src/stm32l4xx_hal_msp.o \
 ./Src/stm32l4xx_it.o \
 ./Src/system_stm32l4xx.o \
@@ -26,8 +26,8 @@ OBJS += \
 C_DEPS += \
 ./Src/freertos.d \
 ./Src/gpio.d \
-./Src/lcd.d \
 ./Src/main.d \
+./Src/stm32l476g_discovery_glass_lcd.d \
 ./Src/stm32l4xx_hal_msp.d \
 ./Src/stm32l4xx_it.d \
 ./Src/system_stm32l4xx.d \

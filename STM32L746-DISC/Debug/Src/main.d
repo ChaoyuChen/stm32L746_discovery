@@ -48,7 +48,8 @@ Src/main.o: ../Src/main.c \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/lcd.h \
+ /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery_glass_lcd.h \
+ /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/usart.h \
  /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/gpio.h
 
@@ -150,7 +151,9 @@ Src/main.o: ../Src/main.c \
 
 /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 
-/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/lcd.h:
+/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery_glass_lcd.h:
+
+/home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/stm32l476g_discovery.h:
 
 /home/chaoyu/eclipse-workspace/STM32L746/STM32L746-DISC/Inc/usart.h:
 
