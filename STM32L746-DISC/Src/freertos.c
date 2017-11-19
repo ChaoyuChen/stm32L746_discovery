@@ -51,7 +51,8 @@
 #include "task.h"
 #include "cmsis_os.h"
 
-/* USER CODE BEGIN Includes */     
+/* USER CODE BEGIN Includes */
+#include "user_tasks.h"
 
 /* USER CODE END Includes */
 
@@ -59,6 +60,7 @@
 osThreadId defaultTaskHandle;
 
 /* USER CODE BEGIN Variables */
+osThreadId lcdTaskHandle;
 
 /* USER CODE END Variables */
 
