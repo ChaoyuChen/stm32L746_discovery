@@ -48,14 +48,13 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include <stdarg.h>
 #include "usart.h"
 
 #include "gpio.h"
 
 
 /* USER CODE BEGIN 0 */
-
+#include <stdarg.h>
 
 /* USER CODE END 0 */
 
@@ -147,14 +146,11 @@ void TRACE(const char *str, ...)
 
 	char DbgTmpStr[MAX_DBGSTR_SIZE] = {'\0'};
 
-	//if(!InitFlag) return;
 
 	va_start(argptr, str);
 	cnt = vsprintf(DbgTmpStr, str, argptr);
 	va_end(argptr);
 	HAL_UART_Transmit(debug_uart_port, DbgTmpStr, cnt, 0xffff);
-
-	//SendStr(DbgTmpStr);
 
 }
 
