@@ -99,6 +99,9 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+  // LCD task
+  osThreadDef(LcdTask, StartLcdTask, osPriorityNormal, 0, 128);
+  lcdTaskHandle = osThreadCreate(osThread(LcdTask), NULL);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_QUEUES */
