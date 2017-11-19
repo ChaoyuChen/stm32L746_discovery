@@ -51,7 +51,7 @@
 #include "task.h"
 #include "cmsis_os.h"
 
-/* USER CODE BEGIN Includes */
+/* USER CODE BEGIN Includes */     
 #include "user_tasks.h"
 
 /* USER CODE END Includes */
@@ -60,7 +60,9 @@
 osThreadId defaultTaskHandle;
 
 /* USER CODE BEGIN Variables */
+#ifdef ENABLE_LCD
 osThreadId lcdTaskHandle;
+#endif
 
 /* USER CODE END Variables */
 
@@ -101,9 +103,11 @@ void MX_FREERTOS_Init(void) {
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+#ifdef ENABLE_LCD
   // LCD task
   osThreadDef(LcdTask, StartLcdTask, osPriorityNormal, 0, 128);
   lcdTaskHandle = osThreadCreate(osThread(LcdTask), NULL);
+#endif
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_QUEUES */

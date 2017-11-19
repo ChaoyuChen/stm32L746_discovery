@@ -33,7 +33,7 @@
   *
   ******************************************************************************
   */
-
+#ifdef ENABLE_LCD
 /* Includes ------------------------------------------------------------------*/
 #include "stm32l476g_discovery_glass_lcd.h"
 
@@ -965,7 +965,7 @@ static void WriteChar(uint8_t *ch, Point_Typedef Point, DoublePoint_Typedef Colo
       break;
   }
 }
-
+#endif
 /**
   * @}
   */
