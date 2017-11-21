@@ -157,10 +157,6 @@
 #define OTG_FS_PowerSwitchOn_GPIO_Port GPIOC
 #define COM0_Pin GPIO_PIN_8
 #define COM0_GPIO_Port GPIOA
-#define COM1_Pin GPIO_PIN_9
-#define COM1_GPIO_Port GPIOA
-#define COM2_Pin GPIO_PIN_10
-#define COM2_GPIO_Port GPIOA
 #define OTG_FS_DM_Pin GPIO_PIN_11
 #define OTG_FS_DM_GPIO_Port GPIOA
 #define OTG_FS_DP_Pin GPIO_PIN_12
